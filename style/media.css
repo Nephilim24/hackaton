@@ -47,7 +47,7 @@
 
   /* --------------- HEADER --------------- */
   .preview {
-    background: url("../images/preview-small.png") no-repeat center / cover;
+    background: url("../images/preview(small).png") no-repeat center / cover;
     background-attachment: fixed;
   }
 
@@ -125,11 +125,11 @@
   }
 
   .burger::before {
-    top: 5px;
+    top: 6px;
   }
 
   .burger::after {
-    top: 23px;
+    top: 22px;
   }
 
   .nav__links {
