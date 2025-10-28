@@ -10,8 +10,8 @@
       rel="stylesheet"
     />
     <link rel="icon" href="icons/Logo.svg" />
-    <link rel="stylesheet" href="style/main.css" />
-    <link rel="stylesheet" href="style/media.css" />
+    <link rel="stylesheet" href="assets/style/main.css" />
+    <link rel="stylesheet" href="assets/style/media.css" />
     <title>Hackaton</title>
   </head>
   <body>
@@ -20,7 +20,7 @@
         <div class="nav__content container">
           <div class="logo__wrapper">
             <a href class="logo">
-              <img src="icons/Logo.svg" alt="logo" />
+              <img src="assets/icons/Logo.svg" alt="logo" />
             </a>
 
             <div class="burger">
@@ -136,7 +136,13 @@
             </button>
           </div>
           <div class="about__image">
-            <img src="images/about.png" alt="" />
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="/assets/images/about-small.png"
+              />
+              <img src="assets/images/about.png" alt="" />
+            </picture>
           </div>
         </div>
       </section>
@@ -145,12 +151,47 @@
         <div class="gallery__content container">
           <h2>GALLERY</h2>
           <div class="gallery__grid">
-            <img src="images/gallery-nature.png" alt="" />
-            <img src="images/gallery-2.png" alt="" />
-            <img src="images/gallery-3.png" alt="" />
-            <img src="images/gallery-4.png" alt="" />
-            <img src="images/gallery-5.png" alt="" />
-            <img src="images/gallery-6.png" alt="" />
+            <img src="/assets/images/gallery-nature.png" alt="Природа" />
+
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="/assets/images/gallery-2-small.png"
+              />
+              <img src="assets/images/gallery-2.png" alt="" />
+            </picture>
+
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="/assets/images/gallery-3-small.png"
+              />
+              <img src="assets/images/gallery-3.png" alt="" />
+            </picture>
+
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="/assets/images/gallery-4-small.png"
+              />
+              <img src="assets/images/gallery-4.png" alt="" />
+            </picture>
+
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="/assets/images/gallery-5-small.png"
+              />
+              <img src="assets/images/gallery-5.png" alt="" />
+            </picture>
+
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="/assets/images/gallery-6-small.png"
+              />
+              <img src="assets/images/gallery-6.png" alt="" />
+            </picture>
           </div>
         </div>
       </section>
@@ -303,6 +344,6 @@
         </div>
       </footer> -->
 
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
