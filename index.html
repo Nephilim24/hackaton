@@ -150,103 +150,143 @@
       <section class="gallery" id="gallery">
         <div class="gallery__content container">
           <h2>GALLERY</h2>
-          <div class="gallery__grid">
-            <img src="/assets/images/gallery-nature.png" alt="Природа" />
+          <ul class="gallery__grid">
+            <li class="gallery__grid-item">
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="assets/images/gallery-nature-small.png"
+                />
+                <img src="assets/images/gallery-nature.png" alt="Природа" />
+              </picture>
+            </li>
 
-            <picture>
-              <source
-                media="(max-width: 768px)"
-                srcset="/assets/images/gallery-2-small.png"
-              />
+            <li class="gallery__grid-item">
               <img src="assets/images/gallery-2.png" alt="" />
-            </picture>
+            </li>
 
-            <picture>
-              <source
-                media="(max-width: 768px)"
-                srcset="/assets/images/gallery-3-small.png"
-              />
+            <li class="gallery__grid-item">
               <img src="assets/images/gallery-3.png" alt="" />
-            </picture>
+            </li>
 
-            <picture>
-              <source
-                media="(max-width: 768px)"
-                srcset="/assets/images/gallery-4-small.png"
-              />
+            <li class="gallery__grid-item">
               <img src="assets/images/gallery-4.png" alt="" />
-            </picture>
+            </li>
 
-            <picture>
-              <source
-                media="(max-width: 768px)"
-                srcset="/assets/images/gallery-5-small.png"
-              />
+            <li class="gallery__grid-item">
               <img src="assets/images/gallery-5.png" alt="" />
-            </picture>
+            </li>
 
-            <picture>
-              <source
-                media="(max-width: 768px)"
-                srcset="/assets/images/gallery-6-small.png"
-              />
+            <li class="gallery__grid-item">
               <img src="assets/images/gallery-6.png" alt="" />
-            </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="projects__content container">
+          <div class="projects__content-circle">
+            <svg
+              width="804"
+              height="1229"
+              viewBox="0 0 804 1229"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_f_26_4)">
+                <circle
+                  cx="189"
+                  cy="614.4"
+                  r="147"
+                  fill="url(#paint0_linear_26_4)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_26_4"
+                  x="-425.4"
+                  y="-9.15527e-05"
+                  width="1228.8"
+                  height="1228.8"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="233.7"
+                    result="effect1_foregroundBlur_26_4"
+                  />
+                </filter>
+                <linearGradient
+                  id="paint0_linear_26_4"
+                  x1="189"
+                  y1="467.4"
+                  x2="189"
+                  y2="761.4"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#93EBDD" />
+                  <stop offset="1" stop-color="#A4CCD2" />
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
+          <h3>OUR</h3>
+          <h2>COMPLETED PROJECTS</h2>
+          <ul class="projects__list">
+            <li class="projects__list-item">
+              <div class="projects__list-item-img">
+                <img src="assets/images/project-1.png" alt="" />
+              </div>
+              <div class="projects__list-item-descr">
+                <div class="projects__list-item-text">
+                  <h5>DESIGN OF A HOUSE</h5>
+                  <p>Los Angeles, California</p>
+                </div>
+                <button class="button">
+                  <a href>Learn more...</a>
+                </button>
+              </div>
+            </li>
+            <li class="projects__list-item">
+              <div class="projects__list-item-img">
+                <img src="assets/images/project-2.png" alt="" />
+              </div>
+              <div class="projects__list-item-descr">
+                <div class="projects__list-item-text">
+                  <h5>DESIGN OF A HOUSE</h5>
+                  <p>Los Angeles, California</p>
+                </div>
+                <button class="button">
+                  <a href>Learn more...</a>
+                </button>
+              </div>
+            </li>
+            <li class="projects__list-item">
+              <div class="projects__list-item-img">
+                <img src="assets/images/project-3.png" alt="" />
+              </div>
+              <div class="projects__list-item-descr">
+                <div class="projects__list-item-text">
+                  <h5>DESIGN OF A HOUSE</h5>
+                  <p>Los Angeles, California</p>
+                </div>
+                <button class="button">
+                  <a href>Learn more...</a>
+                </button>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
       <!--
-        <section class="projects" id="projects">
-          <div class="projects__content container">
-            <h3>OUR</h3>
-            <h2>COMPLETED PROJECTS</h2>
-            <ul class="projects__list">
-              <li class="projects__list-item">
-                <div class="projects__list-item-img">
-                  <img src="images/project-1.png" alt="" />
-                </div>
-                <div class="projects__list-item-descr">
-                  <div class="projects__list-item-text">
-                    <h5>DESIGN OF A HOUSE</h5>
-                    <p>Los Angeles, California</p>
-                  </div>
-                  <button class="button">
-                    <a href>Learn more...</a>
-                  </button>
-                </div>
-              </li>
-              <li class="projects__list-item">
-                <div class="projects__list-item-img">
-                  <img src="images/project-2.png" alt="" />
-                </div>
-                <div class="projects__list-item-descr">
-                  <div class="projects__list-item-text">
-                    <h5>DESIGN OF A HOUSE</h5>
-                    <p>Los Angeles, California</p>
-                  </div>
-                  <button class="button">
-                    <a href>Learn more...</a>
-                  </button>
-                </div>
-              </li>
-              <li class="projects__list-item">
-                <div class="projects__list-item-img">
-                  <img src="images/project-3.png" alt="" />
-                </div>
-                <div class="projects__list-item-descr">
-                  <div class="projects__list-item-text">
-                    <h5>DESIGN OF A HOUSE</h5>
-                    <p>Los Angeles, California</p>
-                  </div>
-                  <button class="button">
-                    <a href>Learn more...</a>
-                  </button>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-  
         <section class="contacts" id="contacts">
           <div class="contacts__content container">
             <div class="contacts__text">
